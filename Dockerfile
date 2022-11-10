@@ -1,4 +1,4 @@
-from golang:latest
+FROM golang:latest
 
 WORKDIR /app
 
