@@ -9,6 +9,6 @@ COPY internal/*.go ./
 
 RUN go build -o /docker-card-quiz
 
-EXPOSE 9999:9999
+EXPOSE 9999
 
 CMD ["/docker-card-quiz"]

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    image: 'index-card-quiz'
+    ports:
+      - '9999:9999'
+  
+  mongodb:
+    image: 'mongo:latest'
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password

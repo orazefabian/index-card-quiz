@@ -31,5 +31,5 @@ func getCards(context *gin.Context) {
 func main() {
 	router := gin.Default()
 	router.GET("/cards", getCards)
-	router.Run("localhost:9999")
+	router.Run("0.0.0.0:9999")
 }
